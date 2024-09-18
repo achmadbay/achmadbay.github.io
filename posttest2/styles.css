@@ -1,0 +1,162 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-left: 10px solid #ff6f61;
+  border-right: 10px solid #ff6f61;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.header h1 {
+  color: #ff6f61;
+}
+.logo img {
+  width: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+.menu-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.qty-input {
+  width: 50px;
+  text-align: center;
+}
+
+.total,
+.tax,
+.grand-total {
+  text-align: right;
+  font-weight: bold;
+  background-color: #ffe4e1;
+}
+
+.payment-metode p {
+  font-size: 18px;
+  color: #333;
+}
+
+.payment-metode label {
+  margin-right: 15px;
+  color: #333;
+}
+
+.confirm-btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.confirm-btn:hover {
+  background-color: #ff4a3d;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .qty-input {
+    width: 40px;
+  }
+
+  table th,
+  table td {
+    padding: 10px;
+  }
+
+  .confirm-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    padding: 15px;
+  }
+
+  .confirm-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .footer {
+    font-size: 13px;
+  }
+}
